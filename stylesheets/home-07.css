@@ -1,0 +1,83 @@
+.ms-tableCell{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.ms-static-title{
+    padding-left: 80px;
+    padding-right: 80px;
+} 
+.ms-static-title a{
+            cursor: url("../images/plus.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}
+.ms-static-title h1 {
+    font-family: "Raleway",Arial,Helvetica,sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 76px;
+    text-transform: uppercase;
+	background-color:#000;
+	color:#fff;
+	padding-left:25px;
+}
+.ms-static-title h3 {
+    margin-top: 10px;
+}
+.ms-static-title h3 > span {
+    font-family: "Montserrat",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 28px;
+    padding: 7px;
+    padding-left: 15px;
+    text-transform: uppercase;
+	background-color:#feee00;
+	color:#000;
+}
+
+/*Panels - LEFT Side*/
+.left1{
+	background-image:url(../images/lara-1.jpg);
+    background-size: cover;
+}
+.left2{
+	background-image:url(../images/gabi-1.jpg);
+    background-size: cover;
+}
+
+/*.left3{
+	background-image:url(../images/teatro-1.jpg);
+    background-size: cover;
+}*/
+
+
+.left3{
+    background-image:url(../images/juan-1.jpg);
+    background-size: cover;
+}
+
+/*Panels - RIGHT Side*/
+.right1{
+	background-image:url(../images/lara-2.jpg);
+    background-size: cover;
+}
+.right2{
+	background-image:url(../images/gabi-2.jpg);
+    background-size: cover;
+}
+/*
+.right3{
+	background-image:url(../images/teatro-2.jpg);
+    background-size: cover;
+}
+*/
+.right3{
+    background-image:url(../images/juan-2.jpg);
+    background-size: cover;
+}
